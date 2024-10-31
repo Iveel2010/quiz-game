@@ -1,5 +1,5 @@
 "use client"
-// components/Quiz.js
+
 import { useState } from 'react';
 import quizData from './quizData';
 import styles from './components/Quiz.module.css';
@@ -17,8 +17,7 @@ const Quiz = () => {
     setShowScore(false);
   };
 
-  // components/Quiz.js
-// ... (imports and state definitions remain the same)
+
 
 const handleAnswerOptionClick = (option) => {
     const button = event.target;
@@ -39,7 +38,7 @@ const handleAnswerOptionClick = (option) => {
     }
   };
   
-  // ... (remaining code)
+
   
   return (
 

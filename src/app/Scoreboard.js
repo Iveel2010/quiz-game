@@ -1,4 +1,4 @@
-// components/Scoreboard.js
+
 import styles from './Scoreboard.module.css';
 
 const Scoreboard = ({ score, totalQuestions }) => {
